@@ -1,10 +1,10 @@
-# AndroidAcquisitionScript
+# Android App Acquisition Script
 Bash script to acquire data form Android apps
 
 ## Description
 Script to acquire the private folder of an Android app (`/data/data/<app-name>`) as a `tar.gz` file, and adds the app version and a timestamp to the compressed filename. 
 
-### Important
+### Note
 This scripts supports files and folder names with spaces on them (which happens on the `zoom` app).
 
 
@@ -14,14 +14,14 @@ This scripts supports files and folder names with spaces on them (which happens 
 Wrong app name:
 ```
 user@linux:~$ ./aquisition.sh us.zoom
-[Info ] Does "us.zoom" exists?
-[ERROR] "us.zoom" does not exists!
+[Info ] Does "us.zoom" exist?
+[ERROR] "us.zoom" does not exist!
 ```
 
 Correct app name:
 ```
 user@linux:~$ ./aquisition.sh us.zoom.videomeetings
-[Info ] Does "us.zoom.videomeetings" exists?
+[Info ] Does "us.zoom.videomeetings" exist?
 [Info ] Yes!
 [Info ] Getting the version of "us.zoom.videomeetings"...
 [Info ] The version is "5.9.3.4247".
