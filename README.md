@@ -4,8 +4,19 @@ Bash script to acquire data form Android apps
 ## Description
 Script to acquire the private folder of an Android app (`/data/data/<app-name>`) as a `tar.gz` file, and adds the app version and a timestamp to the compressed filename. 
 
-### Note
-This scripts supports files and folder names with spaces on them (which happens on the `zoom` app).
+> **Note**
+>
+> This scripts supports files and folder names with spaces on them (which happens on the `zoom` app).
+
+
+### Requirements
+
+This script requires:
+- `adb` to install do: `sudo apt install adb`
+- `tar` (pre-installed in most Linux distros)
+- `gzip` (pre-installed in most Linux distros)
+
+This script was developed and tested on Ubuntu 20.04 and Android 10.
 
 
 ### Examples
