@@ -8,7 +8,7 @@ Script to acquire the private folder of an Android app (`/data/data/<app-name>`)
 This scripts supports files and folder names with spaces on them (which happens on the `zoom` app).
 
 
-### Example:
+### Example
 
 
 Wrong app name:
