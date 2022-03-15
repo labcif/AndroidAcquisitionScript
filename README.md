@@ -44,10 +44,10 @@ data/user_de/0/us.zoom.videomeetings/
 data/user/0/us.zoom.videomeetings/
 ...
 [Info ] Copy terminated.
-[Info ] Compressing "us.zoom.videomeetings--usb10--u0-v5.9.6.4756--2022.03.14T17.01.42.tar" ...
+[Info ] Compressing "us.zoom.videomeetings-v5.9.6.4756--usb10--u0--2022.03.14T17.01.42.tar" ...
 [Info ] Compressing terminated.
 [Info ] Copying to local storage...
-/sdcard/Download/us.zoom.videomeetings--usb10--u0-v5....z: 1 file pulled. 25.3 MB/s (4572767 bytes in 0.173s)
+/sdcard/Download/us.zoom.videomeetings-v5.9.6.4756--....z: 1 file pulled. 25.3 MB/s (4572767 bytes in 0.173s)
 [Info ] Copy terminated.
 [Info ] Cleaning acquisition files from phone...
 [Info ] Clean terminated.
@@ -55,8 +55,8 @@ data/user/0/us.zoom.videomeetings/
 
 Uncompress the acquired file:
 ```
-user@linux:~$ gunzip us.zoom.videomeetings--u0-v5.9.3.4247--2022.02.10T16.18.12.tar.gz
-user@linux:~$ tar -xvf us.zoom.videomeetings--u0-v5.9.3.4247--2022.02.10T16.18.12.tar
+user@linux:~$ gunzip us.zoom.videomeetings-v5.9.6.4756--usb10--u0--2022.03.14T17.01.42.tar.gz
+user@linux:~$ tar -xvf us.zoom.videomeetings-v5.9.6.4756--usb10--u0--2022.03.14T17.01.42.tar
 data/user_de/0/us.zoom.videomeetings/
 data/user_de/0/us.zoom.videomeetings/code_cache/
 data/user_de/0/us.zoom.videomeetings/code_cache/com.android.skia.shaders_cache

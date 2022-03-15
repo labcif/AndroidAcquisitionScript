@@ -60,7 +60,7 @@ echo "[Info ] Yes!"
 echo "[Info ] Getting info..."
     VERSION=$(adb $DEVICE shell dumpsys package $APP | grep versionName | cut -d= -f2)
     ANDROID=$(adb $DEVICE shell getprop ro.build.version.release)
-    FILENAME="$APP--$DEVNAME$ANDROID--u$USER-v$VERSION--$(date '+%Y.%m.%dT%H.%M.%S').tar"
+    FILENAME="$APP-v$VERSION--$DEVNAME$ANDROID-u$USER--$(date '+%Y.%m.%dT%H.%M.%S').tar"
 echo "[Info ] $APP version = $VERSION"
 echo "[Info ] Android version = $ANDROID"
 
